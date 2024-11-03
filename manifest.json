@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "AyudaSinGastar",
+    "version": "2.0",
+    "description": "Automatic referral tag adding to AmazonMX links, in order to contribute to AyudaSinGastar",
+    "permissions": [
+        "webNavigation",
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "host_permissions": [
+        "https://www.amazon.com.mx/*"
+    ]
+}
